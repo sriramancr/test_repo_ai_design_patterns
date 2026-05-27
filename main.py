@@ -38,9 +38,8 @@ elif parent_model == "Quit":
            # Clear session state
            for key in list(st.session_state.keys()):
                del st.session_state[key]
-else:
-    pass    
 
        st.success("Session closed. You can safely close the browser tab.")
        st.stop()
-'''
+else:
+    pass
